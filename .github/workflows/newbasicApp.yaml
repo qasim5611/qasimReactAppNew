@@ -37,4 +37,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./build qasimbootcamp_reactappe.surge.sh --token ${{ secrets.REACT_TOCKEN }}
+      run: surge ./build newbootcamp_reactappe.surge.sh --token ${{ secrets.REACT_TOCKEN }}
