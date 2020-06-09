@@ -36,6 +36,9 @@ jobs:
       
     - name: Install Surge
       run: npm install --global surge
+      
+    - name: Install Toastify
+      run: npm install --save react-toastify
 
     - name: Deploy to Surge
       run: surge ./build qasimBootcampAss2.surge.sh --token ${{secrets.REACT2_TOKEN}}
