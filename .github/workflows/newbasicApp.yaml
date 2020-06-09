@@ -38,4 +38,4 @@ jobs:
       run: npm install -g surge
  
     - name: Deploy to Surge
-      run: surge ./build qasimBootcampAss2.surge.sh --token ${{secrets.REACT2_TOKEN}}
+      run: surge ./build qasimbootcamp_asstwo.surge.sh --token ${{ secrets.REACT2_TOKEN }}
