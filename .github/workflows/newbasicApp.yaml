@@ -35,7 +35,7 @@ jobs:
       run: npm build
       
     - name: Install Surge
-      run: npm install --global surge
+      run: npm install -g surge
  
     - name: Deploy to Surge
       run: surge ./build qasimBootcampAss2.surge.sh --token ${{secrets.REACT2_TOKEN}}
